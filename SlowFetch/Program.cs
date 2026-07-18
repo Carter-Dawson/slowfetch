@@ -8,6 +8,7 @@ internal static class Program
     private static int Main()
     {
         Console.OutputEncoding = System.Text.Encoding.UTF8;
+        Console.CursorVisible = false;
         
         string[] truck =
         [
